@@ -1,8 +1,9 @@
 package packageuno;
 
 public class Alderantziz extends Bereziak {
-	public Alderantziz(String pKolorea) {
-		super(pKolorea);
+	public Alderantziz(String pKolorea, String pMota) {
+		super(pKolorea,pMota);
+		this.mota = "Alderantziz";
 	}
 
  public void kartaEgikaritu(Jokalaria pJok1) {

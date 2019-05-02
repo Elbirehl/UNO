@@ -1,8 +1,9 @@
 package packageuno;
 
 public class Blokeoa extends Bereziak {
-	public Blokeoa(String pKolorea) {
-		super(pKolorea);
+	public Blokeoa(String pKolorea,String pMota) {
+		super(pKolorea,pMota);
+		this.mota = "Blokeoa";
 	}
 	
 	 public void kartaEgikaritu(Jokalaria pJok1) {

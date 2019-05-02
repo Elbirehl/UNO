@@ -1,12 +1,15 @@
 package packageuno;
 
 public class KartaHartu extends Bereziak {
-	public KartaHartu(String pKolorea) {
-		super(pKolorea);
+	public KartaHartu(String pKolorea,String pMota) {
+		super(pKolorea,pMota);
+		this.mota = "KartaHartu";
 	}
 	
 	 public void kartaEgikaritu(Jokalaria pJok1) {
-		 pJok1.hartuKartaBat();
+		 for(int i=0;i <= 2;i++){
+				pJok1.hartuKartaBat();
+			}
 	 }
 	 public boolean kartaKonprobatu() {
 			Mahaia mahaia = Mahaia.getMahaia();

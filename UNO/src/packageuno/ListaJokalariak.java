@@ -13,7 +13,9 @@ public class ListaJokalariak {
 	
 	public static void main ( String [] arguments ) throws IOException {
 		boolean bukaera = false;
-		System.out.println("PARTIDA HASI DA");		
+		System.out.println("PARTIDA HASI DA");
+		Baraja.getNireInstatziaBakarra().kartakKonfiguratu(arguments);
+		
 		//jokalariak sortu
 		for (int i= 0; i < 2; i++)
 		{

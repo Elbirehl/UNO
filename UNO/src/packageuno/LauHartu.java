@@ -2,8 +2,9 @@
 package packageuno;
 
 public class LauHartu extends KartaHartu {
-	public LauHartu(String pKolorea) {
-		super(pKolorea);
+	public LauHartu(String pKolorea, String pMota) {
+		super(pKolorea,pMota);
+		this.mota = "Lau Hartu";
 	}
 	
 	public void kartaEgikaritu(Jokalaria pJok1) {

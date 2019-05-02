@@ -1,9 +1,10 @@
 package packageuno;
 
 public abstract class Bereziak extends Karta {
-
-	public Bereziak(String pKolorea) {
+	protected String mota;
+	public Bereziak(String pKolorea,String pMota) {
 		super(pKolorea);
+		this.mota= pMota;
 		// TODO Auto-generated constructor stub
 	}
 
